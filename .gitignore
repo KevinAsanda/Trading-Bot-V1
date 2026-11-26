@@ -1,0 +1,26 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+
+# Python Cache & Virtual Environments
+.venv/
+demo_runs/
+__pycache__/
+*.py[cod]
+
+# Logs & Databases
+*.log
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+trading_data.db
+trading_data.db-journal
+
+# Local Agent & IDE Artifacts
+.gemini/
+.playwright-mcp/
+GEMINI.md
+.vscode/
+.idea/
